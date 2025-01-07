@@ -47,5 +47,6 @@
   "spawn_notification.despawn_reason.fainted": "fainted",
   "spawn_notification.despawn_reason.despawned": "despawned",
 
-  "spawn_notification_shinysoundsubtitle": "A shiny appeared"
+  "spawn_notification_shinysoundsubtitle": "A shiny appeared",
+  "spawn_notification.legendarysoundsubtitle": "A Legendary appeared"
 }

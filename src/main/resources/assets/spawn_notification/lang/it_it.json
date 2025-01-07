@@ -1,0 +1,52 @@
+{
+  "spawn_notification.notification.spawn": "Un %1$s%2$s%3$s%4$s è spawnato %5$s%6$s%7$s%8$s",
+  "spawn_notification.notification.despawn": "Un %1$s%2$s%3$s%4$s %5$s %6$s%7$s%8$s",
+
+  "spawn_notification.notification.shiny": "%1$s ",
+  "spawn_notification.notification.label": "%1$s ",
+  "spawn_notification.notification.bucket": "%1$s ",
+  "spawn_notification.notification.biome": "nel bioma %1$s ",
+  "spawn_notification.notification.coords": "alle coordinate %1$s, %2$s, %3$s ",
+  "spawn_notification.notification.dimension": "nel %1$s",
+  "spawn_notification.notification.player": " vicino %1$s",
+
+  "spawn_notification.shiny": "Shiny",
+
+  "dimension.minecraft.overworld": "Overworld",
+  "dimension.minecraft.the_nether": "Nether",
+  "dimension.minecraft.the_end": "End",
+
+  "spawn_notification.bucket.common": "Comune",
+  "spawn_notification.bucket.uncommon": "Non comune",
+  "spawn_notification.bucket.rare": "Raro",
+  "spawn_notification.bucket.ultra-rare": "Ultra raro",
+
+  "spawn_notification.label.gen1": "Generazione 1",
+  "spawn_notification.label.gen2": "Generazione 2",
+  "spawn_notification.label.gen3": "Generazione 3",
+  "spawn_notification.label.gen4": "Generazione 4",
+  "spawn_notification.label.gen5": "Generazione 5",
+  "spawn_notification.label.gen6": "Generazione 6",
+  "spawn_notification.label.gen7": "Generazione 7",
+  "spawn_notification.label.gen8": "Generazione 8",
+  "spawn_notification.label.gen9": "Generazione 9",
+  "spawn_notification.label.kanto_regional": "Kanto Regionale",
+  "spawn_notification.label.johto_regional": "Johto Regionale",
+  "spawn_notification.label.hoenn_regional": "Hoenn Regionale",
+  "spawn_notification.label.unova_regional": "Unova Regionale",
+  "spawn_notification.label.kalos_regional": "Kalos Regionale",
+  "spawn_notification.label.alola_regional": "Alola Regionale",
+  "spawn_notification.label.legendary": "Legendario",
+  "spawn_notification.label.pseudo_legendary": "Pseudo Leggendario",
+  "spawn_notification.label.mythical": "Mitico",
+  "spawn_notification.label.ultra_beast": "Ultra Bestia",
+  "spawn_notification.label.paradox": "Paradosso",
+  "spawn_notification.label.baby": "Baby",
+
+  "spawn_notification.despawn_reason.captured": "è stato catturato",
+  "spawn_notification.despawn_reason.fainted": "è svenuto",
+  "spawn_notification.despawn_reason.despawned": "è despawnato",
+
+  "spawn_notification_shinysoundsubtitle": "Uno shiny è apparso",
+  "spawn_notification.legendarysoundsubtitle": "Un leggendario è apparso"
+}

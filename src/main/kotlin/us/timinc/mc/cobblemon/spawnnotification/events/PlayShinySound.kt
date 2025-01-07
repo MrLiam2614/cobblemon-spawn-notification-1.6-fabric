@@ -2,6 +2,7 @@ package us.timinc.mc.cobblemon.spawnnotification.events
 
 import com.cobblemon.mod.common.api.events.entity.SpawnEvent
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity
+import us.timinc.mc.cobblemon.spawnnotification.SpawnNotification.LEGENDARY_SOUND_EVENT
 import us.timinc.mc.cobblemon.spawnnotification.SpawnNotification.SHINY_SOUND_EVENT
 import us.timinc.mc.cobblemon.spawnnotification.SpawnNotification.config
 import us.timinc.mc.cobblemon.spawnnotification.broadcasters.SoundBroadcaster
@@ -17,9 +18,17 @@ object PlayShinySound {
                 world, pos, SHINY_SOUND_EVENT
             )
             if (config.broadcastRangeEnabled) {
-                getValidPlayers(world.dimensionEntry.key.get(), pos).forEach { broadcaster.playShinySoundClient(it) }
+                getValidPlayers(world.dimensionEntry.key.get(), pos).forEach { broadcaster.playSoundClient(it) }
             } else {
-                broadcaster.playShinySound()
+                broadcaster.playSound()
+            }
+        }
+        if(config.playLegendarySound && evt.entity.pokemon.hasLabels("legendary")){
+            val broadcaster = SoundBroadcaster(
+                world, pos, LEGENDARY_SOUND_EVENT
+            )
+            if (config.broadcastRangeEnabled) {
+                getValidPlayers(world.dimensionEntry.key.get(), pos).forEach { broadcaster.playSoundClient(it) }
             }
         }
     }

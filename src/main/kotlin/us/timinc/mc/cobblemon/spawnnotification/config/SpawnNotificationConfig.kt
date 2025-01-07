@@ -9,7 +9,9 @@ class SpawnNotificationConfig {
     val broadcastCoords = true
     val broadcastBiome = false
     val playShinySound = true
+    val playLegendarySound = true
     val playShinySoundPlayer = false
+    val playLegendarySoundPlayer = false
     val announceCrossDimensions = false
     val broadcastDespawns = false
     val broadcastVolatileDespawns = false

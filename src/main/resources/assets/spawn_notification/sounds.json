@@ -4,5 +4,11 @@
     "sounds": [
       "spawn_notification:shiny"
     ]
+  },
+  "pla_legendary": {
+    "subtitle": "spawn_notification.legendarysoundsubtitle",
+    "sounds": [
+      "spawn_notification:legendary"
+    ]
   }
 }

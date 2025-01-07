@@ -12,11 +12,11 @@ class SoundBroadcaster(
     val pos: BlockPos,
     val sound: SoundEvent
 ) {
-    fun playShinySound() {
+    fun playSound() {
         level.playSoundServer(pos.toCenterPos(), sound, SoundCategory.NEUTRAL, 10f, 1f)
     }
 
-    fun playShinySoundClient(player: PlayerEntity) {
+    fun playSoundClient(player: PlayerEntity) {
         player.playSound(sound, 10f, 1f)
     }
 }

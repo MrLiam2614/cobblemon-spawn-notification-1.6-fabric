@@ -19,9 +19,13 @@ object SpawnNotification : ModInitializer {
 
     @JvmStatic
     var SHINY_SOUND_ID: Identifier = Identifier.of("$MOD_ID:pla_shiny")
+    @JvmStatic
+    var LEGENDARY_SOUND_ID: Identifier = Identifier.of("$MOD_ID:pla_legendary")
 
     @JvmStatic
     var SHINY_SOUND_EVENT: SoundEvent = SoundEvent.of(SHINY_SOUND_ID)
+    @JvmStatic
+    var LEGENDARY_SOUND_EVENT: SoundEvent = SoundEvent.of(LEGENDARY_SOUND_ID)
 
     override fun onInitialize() {
         CobblemonEvents.POKEMON_ENTITY_SPAWN.subscribe(Priority.LOWEST, BroadcastSpawn::handle)
