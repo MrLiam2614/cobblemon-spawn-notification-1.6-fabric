@@ -1,5 +1,14 @@
 # Spawn Notification
 
+This project is licensed under the Mozilla Public License Version 2.0.
+Portions of this project are derived from https://github.com/timinc-cobble/cobblemon-spawn-notification-1.6-fabric, which is also licensed under the MPL-2.0.
+
+This project is based on cobblemon-spawn-notification-1.6-fabric by [timinc-cobble](https://github.com/timinc-cobble), licensed under MPL-2.0. 
+
+## Key differences:
+- Added Leggendary spawn sounds
+- Added italian language
+
 ![2023-07-19_01.19.04.png](https://i.imgur.com/4bpatSa.png)
 
 When a Legendary and/or Shiny Pokemon shows up, a message is broadcast to all players on the server.
